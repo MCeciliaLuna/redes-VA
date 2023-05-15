@@ -2,9 +2,9 @@
 
 const Footer = () => {
   return (
-    <>
-      <h2>Footer</h2>
-    </>
+    <footer>
+      <p>By <a href="https://mcecilialuna-dev.netlify.app/" target="_blank" rel="noreferrer">MCeciliaLunaDev</a></p>
+    </footer>
   );
 };
 
