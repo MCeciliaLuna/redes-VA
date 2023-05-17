@@ -1,7 +1,13 @@
+import socialMedia from '../assets/images/socialmedia.png'
+
 const Links = () => {
   return (
-    <section className="links d-flex justify-content-center">
+    <section className="links position-relative">
+      <div className="position-absolute top-50 start-50 translate-middle d-flex justify-content-center w-100">
       <ul className="list-group w-50">
+      <div className="d-flex justify-content-center">
+      <img src={socialMedia} className="socialmedia-icon pb-2" alt="" />
+      </div>
         <a
           href="https://www.facebook.com/VidaAbundanteTuc"
           target="_blank"
@@ -40,7 +46,7 @@ const Links = () => {
           rel="noreferrer"
           className="fs-1 fw-bold link-facebookradio"
         >
-          Facebook Radio La Voz Amiga
+          Facebook Radio
         </a>
         <a
           href="http://chino.republicahosting.com:8364/live"
@@ -59,6 +65,7 @@ const Links = () => {
           App Radio
         </a>
       </ul>
+      </div>
     </section>
   );
 };
