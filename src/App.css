@@ -1,15 +1,15 @@
 @font-face {
-  font-family: 'Titles';
-  src: url('assets/fonts/BebasNeue-Regular.ttf') format('truetype')
+  font-family: "Titles";
+  src: url("assets/fonts/BebasNeue-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Text';
-  src: url('assets/fonts/Cabin-VariableFont.ttf') format('truetype')
+  font-family: "Text";
+  src: url("assets/fonts/Cabin-VariableFont.ttf") format("truetype");
 }
 
 :root {
-  --title: #0097B2;
+  --title: #0097b2;
   --link-facebook: #5390d9;
   --link-instagram: #b5179e;
   --link-youtube: #d00000;
@@ -17,27 +17,31 @@
   --link-facebookradio: #fb5607;
   --link-radio: #4a4e69;
   --link-playstore: #ffc300;
-  --text: white
+  --text: white;
 }
 
-body{
+body {
   background-image: url(./assets/images/background-image.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  text-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-h1, h2, h3, a, p{
-  font-family: 'Titles';
+h1,
+h2,
+h3,
+a,
+p {
+  font-family: "Titles";
   color: var(--text);
 }
 
-h1{
+h1 {
   font-size: 4rem;
   position: relative;
   display: inline-block;
-  padding: 30px 130px 3px;
+  padding: 25px 50px 3px;
 }
 
 h1::before {
@@ -51,12 +55,12 @@ h1::before {
   z-index: -1;
 }
 
-a{
-  text-shadow: 4px 4px 6px rgba(0,0,0,0.5);
+a {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
   text-decoration: none;
-	color: var(--text);
-	font-weight: 700;
-	vertical-align: top;
+  color: var(--text);
+  font-weight: 700;
+  vertical-align: top;
   position: relative;
 }
 
@@ -77,54 +81,91 @@ a:hover::before {
   width: calc(100% + 10px);
 }
 
-.link-facebook::before{
+.link-facebook::before {
   background-color: var(--link-facebook);
 }
 
-.link-instagram::before{
+.link-instagram::before {
   background-color: var(--link-instagram);
 }
 
-.link-youtube::before{
+.link-youtube::before {
   background-color: var(--link-youtube);
 }
 
-.link-whatsapp::before{
+.link-whatsapp::before {
   background-color: var(--link-whatsapp);
 }
 
-.link-facebookradio::before{
+.link-facebookradio::before {
   background-color: var(--link-facebookradio);
 }
 
-.link-instagram::before{
+.link-instagram::before {
   background-color: var(--link-instagram);
 }
 
-.link-radio::before{
+.link-radio::before {
   background-color: var(--link-radio);
 }
 
-.link-playstore::before{
+.link-playstore::before {
   background-color: var(--link-playstore);
 }
 
+.cross-icon {
+  height: 100px;
+  box-shadow: 4px 14px 33px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 4px 14px 33px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 14px 33px 0px rgba(0, 0, 0, 0.75);
+}
 
+.ubication-icon {
+  height: 35px;
+}
 
+.meetings-icon {
+  height: 100px;
+}
 
-h4, h5, h6{
-  font-family: 'Text';
+.ubication-text {
+  text-shadow: none;
+}
+
+.church-description {
+  color: black;
+  text-shadow: none;
+  position: relative;
+  display: inline-block;
+  padding: 25px 50px 3px;
+}
+
+.church-description::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background-color: white; /* Color de la barra de fondo */
+  z-index: -1;
+}
+
+h4,
+h5,
+h6 {
+  font-family: "Text";
   color: var(--text);
 }
 
-.meeting-general{
-  background-color: #0097B2;
+.meeting-general {
+  background-color: #0097b2;
 }
 
-.meeting-pray{
-  background-color: #D89D04;
+.meeting-pray {
+  background-color: #d89d04;
 }
 
-.meeting-special{
-  background-color: #CF0000;
+.meeting-special {
+  background-color: #cf0000;
 }
