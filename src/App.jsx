@@ -3,11 +3,11 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import Links from "./components/Links";
 import Footer from "./components/Footer";
 import Information from "./components/Information";
-import { Fade } from "react-awesome-reveal";
+// import { Fade } from "react-awesome-reveal";
 
 function App() {
   return (
-    <Fade cascade>
+    // <Fade cascade>
     <div className="text-center container">
       <WelcomeMessage />
       <main>
@@ -16,7 +16,7 @@ function App() {
       </main>
       <Footer />
     </div>
-    </Fade>
+    // </Fade>
   );
 }
 
