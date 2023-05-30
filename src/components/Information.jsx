@@ -12,7 +12,7 @@ const Information = () => {
         aria-label="Basic mixed styles example"
       >
         <p className="meeting-general fs-2 rounded-0 px-3">
-          DOM, 9:30 y 19:30 hs.
+          DOM 9:30 y 19:30 hs.
         </p>
         <p className="meeting-pray fs-2 rounded-0 px-3">Oración: MAR, 20 hs.</p>
         <p className="meeting-special fs-2 rounded-0 px-3">
