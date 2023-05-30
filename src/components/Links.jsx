@@ -4,7 +4,7 @@ const Links = () => {
   return (
     <section className="links position-relative">
       <div className="position-absolute top-50 start-50 translate-middle d-flex justify-content-center w-100">
-      <ul className="list-group w-50">
+      <ul className="list-group w-75">
       <div className="d-flex justify-content-center">
       <img src={socialMedia} className="socialmedia-icon pb-2" alt="" />
       </div>
