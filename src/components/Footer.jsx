@@ -1,6 +1,7 @@
 const Footer = () => {
   return (
     <footer>
+      <hr className="text-light"/>
       <p>
         By{" "}
         <a
