@@ -13,17 +13,17 @@ const Information = () => {
           aria-label="Basic mixed styles example"
         >
           <p className="meeting-general fs-1 rounded-0 px-3">
-            <Fade cascade duration={75} delay={500} triggerOnce>
+            <Fade cascade duration={50} delay={500} triggerOnce>
               DOM 9:30 y 19:30 hs.
             </Fade>
           </p>
           <p className="meeting-pray fs-1 rounded-0 px-3">
-            <Fade cascade duration={75} delay={1000} triggerOnce>
+            <Fade cascade duration={50} delay={1000} triggerOnce>
               Oración: MAR, 20 hs.
             </Fade>
           </p>
           <p className="meeting-special fs-1 rounded-0 px-3">
-            <Fade cascade duration={75} delay={1500} triggerOnce>
+            <Fade cascade duration={50} delay={1500} triggerOnce>
               Santa Cena: 2° DOM de cada mes
             </Fade>
           </p>

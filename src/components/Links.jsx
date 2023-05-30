@@ -13,7 +13,7 @@ const Links = () => {
               alt="redes-sociales"
             />
           </div>
-            <h6 className="fs-3 mb-3">Nuestras redes:</h6>
+          <h6 className="fs-3 mb-3">Nuestras redes:</h6>
           <a
             href="https://www.facebook.com/VidaAbundanteTuc"
             target="_blank"
