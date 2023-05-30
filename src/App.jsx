@@ -3,6 +3,7 @@ import WelcomeMessage from "./components/WelcomeMessage";
 import Links from "./components/Links";
 import Footer from "./components/Footer";
 import Information from "./components/Information";
+import ScriptPhotos from "./components/ScriptPhotos";
 // import { Fade } from "react-awesome-reveal";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <WelcomeMessage />
       <main>
         <Information />
+        <ScriptPhotos />
         <Links />
       </main>
       <Footer />
