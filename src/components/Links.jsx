@@ -1,5 +1,4 @@
 import socialMedia from "../assets/images/socialmedia.png";
-import { Fade } from "react-awesome-reveal";
 
 const Links = () => {
   return (
@@ -20,9 +19,7 @@ const Links = () => {
             rel="noreferrer"
             className="fs-1 fw-bold link-facebook"
           >
-            <Fade cascade duration={75} triggerOnce>
               Facebook
-            </Fade>
           </a>
           <a
             href="https://www.instagram.com/asocvidaabundante/"
@@ -30,9 +27,7 @@ const Links = () => {
             rel="noreferrer"
             className="fs-1 fw-bold link-instagram"
           >
-            <Fade cascade duration={75} triggerOnce>
               Instagram
-            </Fade>
           </a>
           <a
             href="https://www.youtube.com/@IglesiaVidaAbundanteTucuman"
@@ -40,9 +35,7 @@ const Links = () => {
             rel="noreferrer"
             className="fs-1 fw-bold link-youtube"
           >
-            <Fade cascade duration={75} triggerOnce>
               Youtube
-            </Fade>
           </a>
           <a
             href="https://api.whatsapp.com/send?phone=5493814046029"
@@ -50,9 +43,7 @@ const Links = () => {
             rel="noreferrer"
             className="fs-1 fw-bold link-whatsapp"
           >
-            <Fade cascade duration={75} triggerOnce>
               Whatsapp
-            </Fade>
           </a>
           <a
             href="https://www.facebook.com/RadioLaVozAmigaTucuman"
@@ -60,9 +51,7 @@ const Links = () => {
             rel="noreferrer"
             className="fs-1 fw-bold link-facebookradio"
           >
-            <Fade cascade duration={75} triggerOnce>
               Facebook Radio
-            </Fade>
           </a>
           <a
             href="http://chino.republicahosting.com:8364/live"
@@ -70,9 +59,7 @@ const Links = () => {
             rel="noreferrer"
             className="fs-1 fw-bold link-radio"
           >
-            <Fade cascade duration={75} triggerOnce>
               FM 92.1
-            </Fade>
           </a>
           <a
             href="https://play.google.com/store/apps/details?id=com.app.la_voz_amigatuc"
@@ -80,9 +67,7 @@ const Links = () => {
             rel="noreferrer"
             className="fs-1 fw-bold link-playstore"
           >
-            <Fade cascade duration={75} triggerOnce>
               App Radio
-            </Fade>
           </a>
           <a
             href="https://goo.gl/maps/ynToVqJjnUYwLz9N7"
@@ -90,9 +75,7 @@ const Links = () => {
             rel="noreferrer"
             className="fs-1 fw-bold link-maps"
           >
-            <Fade cascade duration={75} triggerOnce>
               Google Maps
-            </Fade>
           </a>
         </ul>
       </div>
